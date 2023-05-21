@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+
+/* 
+.box {
+    border: ;
+    box-shadow: 5px -0px 20px -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    width: 282px;
+    height: 380px;
+    transition: 300ms;
+}
+
+.box:hover{
+    border: 5px solid forestgreen;
+}
+
+.box .h {
+    line-height: 25px;
+    font-size: 17px;
+    max-width: 270px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.box .p {
+    line-height: 25px;
+    font-size: 14px;
+    max-width: 270px;
+}
+
+.box .box_image {
+    width: 88px;
+    height: 88px;
+    margin-bottom: 45px;
+} */
+
+
+
+
+/* SECOND HW */
+
+
+
+
+.box {
+    width: 320px;
+    height: 470px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+    /* justify-content: center; */
+}
+.red {
+    background: #ff0a54f0;
+    border: 3px solid #ff0a54f0;
+}
+
+#img {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    width: 75px;
+    height: 75px;
+}
+
+.box .box_image {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    width: 45px;
+    height: 45px;
+}
+
+.box .box_image {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    width: 45px;
+    height: 45px;
+}
+
+.box .h {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.box .p {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 25px;
+    /* max-width: 260px; */
+}
+
+.box .btn {
+    background: #000;
+    color: #fff;
+    padding: 15px 0px;
+    border-radius: 25px;
+    width: 100%;
+    text-align: center;
+}
+.box .white-h {
+    color: #fff;
+}
+
+.box .white-p {
+    color: #fff;
+}
+
+.box .white-btn {
+    background: #fff;
+    color: #ff0a54f0;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px ;
+    border-radius: 50px;
+}
